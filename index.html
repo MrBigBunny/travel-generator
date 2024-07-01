@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Juander Go</title>
+    <!---custom css link--->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <!-- This is for Slider in contact page -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  </head>
+  <body>
+    <!---header--->
+    <header>
+      <a href="#" class="logo"><img src="pic/logoFinal.png" /></a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <ul class="navbar">
+        <li><a href="#home" style="color:#051932; font-weight:bold; font-size: 20px;">Home</a></li>
+        <li><a href="#about" style="color:#051932; font-weight:bold; font-size: 20px;">About</a></li>
+        <li><a href="#services" style="color:#051932; font-weight:bold; font-size: 20px;">Tourist</a></li>
+        <li><a href="#portfolio" style="color:#051932; font-weight:bold; font-size: 20px;">Recommended</a></li>
+        <li><a href="#contact" style="color:#051932; font-weight:bold; font-size: 20px;">Contact</a></li>
+      </ul>
+    </header>
+
+    <!---home--->
+    <section class="home" id="home">
+      <div class="home-text">
+        <h4 ><strong>Travelex Corporation</strong></h4>
+        <h1 ><strong>
+          Juander
+          </strong><span> <strong> Go</strong></span>
+        
+        </h1>
+        <h3 style="font-size: 20px;">Are you having a hard time  planning and choosing the right <br>
+        destination? Conquer all your travel worries with Plog & Go With the <br>
+        right planning and assistance you can achieve your dream vacation.<br>
+        hassle free~<br>
+        To further help you,  here's a fun and easy quiz to figure out your travel personality! <br> Perhaps you'll discover something new about yourself<br><br>
+        And if you're planning a vacation with your family, friends, or loved ones, <br> why not share Juander Go with them as well? Let's get started!
+
+
+        <!-- To further help you. Here's a fun and easy quiz to figure out your travel <br>
+        personally! Pershaps you'll discover something new about yourself. <br><br>
+
+          And if you're planning a vacation with your family, friends, or loved <br>
+          ones, why not share Plog & Go with them as well? Let's get started! -->
+        </h3>
+        <a href="#portfolio" class="btn">Get Started</a>
+      </div>
+    </section>
+
+    <!---about--->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img/city.jpg" />
+      </div>
+
+      <div class="about-text">
+        <h2>About Us</h2>
+        <h4>This website is built to reinvent your travel planning to be more efficient and convenient with the help of Juander Go. This will find you a range of options for travel itineraries based on the result of your test.</h4>
+        <p style="font-size:18px ;">
+          Juander Go is a website that generates travel itineraries and allows the tourist to know what kind of traveler they are through a plog test. The website allows the user to browse a variety of options for their future travel.
+        </p>
+        <div class="about-gri">
+          <div class="about-in">
+            <h5>MISSION: <br>
+              To weave a fabric of positive relationship between clients and operators by serving with pride and working with passion in order to promote exceptional services that improve experiences and accelerate progress. 
+              </h5>
+          </div>
+
+          <div class="about-in" style="margin-bottom: 70px;">
+            <h5>VISION: <br>
+              To be the leading website that is committed in producing quality and exceptional services to its clients through continuous research and development.
+              </h5>
+          </div>
+<!-- 
+          <div class="about-in">
+            <h5>3. Search a lot</h5>
+          </div>
+
+          <div class="about-in">
+            <h5>4. High Quality</h5>
+          </div> -->
+        </div>
+        <a href="#contact" class="btn">Contact Us</a>
+      </div>
+    </section>
+
+    <!---services--->
+    <section class="services" id="services">
+      <div class="main-text">
+        <h2>What type of Tourist are you?</h2>
+        <h4>Better Travel, Better Experience</h4>
+      </div>
+
+      <div class="services-content">
+        <div class="box">
+          <h3>Allocentrics</h3>
+          <img src="img/tourists.png" />
+          <p class="box-p" style="color: #FFFFFF;">
+            Travelers who are continually looking for new experience and destinations: they are adventurous by nature.
+          </p>
+        </div>
+
+        <div class="box">
+          <h3>Midcentrics</h3>
+          <img src="img/tourist.png" />
+          <p class="box-p" style="color: #FFFFFF;">
+            Travelers who are not particularly adventures and there will be no self effort to visit bizarre places. But at the same time, these do not oppose experiments regarding touring in terms of activities or strange places. Hence they are very receptive to new experiences.
+          </p>
+        </div>
+
+        <div class="box">
+          <h3>Psychocentrics</h3>
+          <img src="img/people.png" />
+          <p class="box-p" style="color: #FFFFFF;">
+            Travelers who prefer trips close to home and seek familiar environments, such as hotel chains with which they are comfortable when traveling.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!---portfolio--->
+    <section class="portfolio" id="portfolio">
+      <div class="main-text">
+        <h2>Your Tourist Spot</h2>
+        <h4 id="type">Based on type of Tourist</h4>
+      </div>
+
+      <div id="portfolio-content">
+        <!--SURVEY-->
+        <div class="quiz-container" id="quiz">
+          <div class="quiz-header">
+            <h2 id="question">Question Text</h2>
+            <ul id="survey">
+              <li>
+                <input type="radio" name="answer" id="1" class="answer" />
+                <label for="a" id="a_text">1</label>
+              </li>
+
+              <li>
+                <input type="radio" name="answer" id="2" class="answer" />
+                <label for="b" id="b_text">2</label>
+              </li>
+
+              <li>
+                <input type="radio" name="answer" id="3" class="answer" />
+                <label for="c" id="c_text">3</label>
+              </li>
+
+              <li>
+                <input type="radio" name="answer" id="4" class="answer" />
+                <label for="d" id="d_text">4</label>
+              </li>
+
+              <li>
+                <input type="radio" name="answer" id="5" class="answer" />
+                <label for="e" id="e_text">5</label>
+              </li>
+            </ul>
+            <br>
+            <P class="pp"><strong>(1 being the Lowest and 5 being the Highest)</strong></P>
+          </div>
+
+          <button id="submit"><strong>SUBMIT</strong></button>
+        </div>
+        <!--SURVEY END-->
+        <!-- <div class="row">
+          <img src="img/pinatubo.jpg" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>Nature</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>Mount Pinatubo</h3>
+        </div>
+
+        <div class="row">
+          <img src="img/church.jpg" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>Historical</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>Barasoain Church</h3>
+        </div>
+
+        <div class="row">
+          <img src="img/arayat.jpg" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>Nature</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>Mount Arayat</h3>
+        </div>
+
+        <div class="row">
+          <img src="img/spring.jpeg" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>Relaxation</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>Puning Hot Spring</h3>
+        </div>
+
+        <div class="row">
+          <img src="img/station.jpg" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>Historical</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>San Fernando Train Station</h3>
+        </div>
+
+        <div class="row">
+          <img src="img/mansion.jpg" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>Historical</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>Pamintuan Mansion</h3>
+        </div> -->
+      </div>
+    </section>
+
+    <!---contact--->
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2 style="color:#051932;  font-size: 44px; text-align: center;">Contact Us</h2>
+        <h4 style="color:#051932; text-align: center;">Let's Work on your Tour Package</h4>
+        <p style="color:#051932; text-align: center;">
+          "Live life with no excuses, travel with no regret”
+        </p>
+        <div class="contact-list">
+          <li><a href="#" style="font-size:30px; color:#051932; text-align: center;">Travelex</a></li>
+          <li><a href="#" style="color:#051932; text-align: center;">travelexest2022@gmail.com</a></li>
+        </div>
+        <div class="contact-icons">
+          <!-- <a href="#"><i class="bx bxl-linkedin"></i></a> -->
+          <a href="https://www.facebook.com/profile.php?id=100088145563353&mibextid=ZbWKwL"><i class="bx bxl-facebook" style="background-color:#051932; "></i></a>
+          <!-- <a href="#"><i class="bx bxl-behance"></i></a> -->
+          <a href="https://instagram.com/travelex.est2022?igshid=NTdlMDg3MTY="><i class="bx bxl-instagram" style="background-color:#051932; "></i></a>
+          <!-- <a href="#"><i class="bx bxl-dribbble"></i></a> -->
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <div class="slide-container swiper">
+          <div class="slide-content">
+              <div class="card-wrapper swiper-wrapper">
+                  <div class="card swiper-slide">
+                      <div class="image-content">
+                          <span class="overlay"></span>
+
+                          <div class="card-image">
+                              <img src="pic/person1.jpg" alt="" class="card-img">
+                          </div>
+                      </div>
+
+                      <div class="card-content" style="height: 450px;">
+                          <h2 class="name" style="font-size: 20px; margin: 10px;"> Karl Angelo M. David <br>
+                            </h2>
+                          <h3 style="color:#051932; font-size: 15px;">karlangelodavid1800@gmail.com </h3>
+                            <br>
+                          <p class="description">
+                            Chief Executive Officer (CEO) manages a company's overall operations. This may include delegating and directing agendas, driving profitability, managing company organizational structure, strategy, and communicating with the board. <br><br>
+                            “Embrace what you don’t know, especially in the beginning, because what you don’t know can become your greatest asset. It ensures that you will absolutely be doing things different from everybody else.”
+                          </p>
+
+                          <!-- <button class="button">View More</button> -->
+                      </div>
+                  </div>
+                  <div class="card swiper-slide">
+                      <div class="image-content">
+                          <span class="overlay"></span>
+
+                          <div class="card-image">
+                              <img src="pic/person2.jpg" alt="" class="card-img">
+                          </div>
+                      </div>
+
+                      <div class="card-content"style="height:  450px;">
+                        <h2 class="name" style="font-size: 20px; margin: 10px;"> Kathleen A. Eusebio <br>
+                        </h2>
+                      <h3 style="color:#051932; font-size: 15px;">kathleeneusebio25@gmail.com</h3>
+                        <br>
+                          <p class="description">As a Finance Manager I oversee the financial health of the organization 
+                            and help ensure its continued viability. It is my duty to monitor cash flow, determine profitability,
+                             manage expenses and produce accurate financial information. <br> <br>
+                             “Finance without a strategy is just numbers, and strategy without finance is just dreaming”      -E.Faber </p>
+                          <!-- <button class="button">View More</button> -->
+                      </div>
+                  </div>
+                  <div class="card swiper-slide">
+                      <div class="image-content">
+                          <span class="overlay"></span>
+
+                          <div class="card-image">
+                              <img src="pic/person3.jpg" alt="" class="card-img">
+                          </div>
+                      </div>
+
+                      <div class="card-content"style="height:  450px;">
+                        <h2 class="name" style="font-size: 20px; margin: 10px;"> Ma. Gelicah Jeyze C. Lingat <br>
+                        </h2>
+                      <h3 style="color:#051932; font-size: 15px;">gelicahlingat@gmail.com</h3>
+                        <br>
+                          <p class="description">As an executive assistant it is my duty to professionally help executives when it comes to arranging schedules, prioritizing and responding to emails, 
+                            organizing records and documents, and working with any other administrative tasks. <br> <br>
+                            “Your goal is my command, ready to work when you are!” </p>
+                          <!-- <button class="button">View More</button> -->
+                      </div>
+                  </div>
+                  <div class="card swiper-slide">
+                      <div class="image-content">
+                          <span class="overlay"></span>
+
+                          <div class="card-image">
+                              <img src="pic/person4.jpg" alt="" class="card-img">
+                          </div>
+                      </div>
+
+                      <div class="card-content"style="height:  450px;">
+                        <h2 class="name" style="font-size: 20px; margin: 10px;"> Czarielle B. Macapagal  <br>
+                        </h2>
+                      <h3 style="color:#051932; font-size: 15px;">czaymacapagal57@gmail.com</h3>
+                        <br>
+                          <p class="description">As a customer care representative, it is my duty to communicate with others and respond to customer complaints. 
+                            My job entails resolving customer 
+                            service problems and enhancing the general level of client satisfaction at the company.v <br> <br>
+                            "Treat the customer like you would want to be treated. Period!" - Brad Schweig</p>
+                          <!-- <button class="button">View More</button> -->
+                      </div>
+                  </div>
+                  <div class="card swiper-slide">
+                      <div class="image-content">
+                          <span class="overlay"></span>
+
+                          <div class="card-image">
+                              <img src="pic/person5.jpg" alt="" class="card-img">
+                          </div>
+                      </div>
+
+                      <div class="card-content"style="height:  450px;">
+                        <h2 class="name" style="font-size: 20px; margin: 10px;"> Joamie R. Miclat  <br>
+                        </h2>
+                      <h3 style="color:#051932; font-size: 15px;">joamiereyesmiclat@gmail.com</h3>
+                        <br>
+                          <p class="description">Engineering managers organize, direct, and monitor a company's technical and engineering operations.  
+                            In charge of organizing engineering projects,  
+                            making sure that I efficiently carried out, and supervising and advising others. <br> <br>
+                            “Strive for perfection in everything you do. Take the best that exists and make it better. When it does not exist, design it.”</p>
+                          <!-- <button class="button">View More</button> -->
+                      </div>
+                  </div>
+                  <div class="card swiper-slide">
+                      <div class="image-content">
+                          <span class="overlay"></span>
+
+                          <div class="card-image">
+                              <img src="pic/person6.jpg" alt="" class="card-img">
+                          </div>
+                      </div>
+
+                      <div class="card-content"style="height:  450px;">
+                        <h2 class="name" style="font-size: 20px; margin: 10px;"> Lenard E. Rugas  <br>
+                        </h2>
+                      <h3 style="color:#051932; font-size: 15px;">lenardrugas1228@gmail.com</h3>
+                        <br>
+                          <p class="description">As a marketing Specialist it is my duty to oversee and contribute to
+                             implementing marketing strategies that can boost the company and the services we offer. 
+                            As part of this job, it is my obligation to raise brand awareness in the market. <br> <br>
+                            “Instead of interrupting, work on attracting.”</p>
+                          <!-- <button class="button">View More</button> -->
+                      </div>
+                  </div>
+                  <div class="card swiper-slide">
+                      <div class="image-content">
+                          <span class="overlay"></span>
+
+                          <div class="card-image">
+                              <img src="pic/person7.jpg" alt="" class="card-img">
+                          </div>
+                      </div>
+
+                      <div class="card-content"style="height:  450px;">
+                        <h2 class="name" style="font-size: 20px; margin: 10px;"> Christine Joyce S. Salas  <br>
+                        </h2>
+                      <h3 style="color:#051932; font-size: 15px;">salaschristinejoyce.4a@gmail.com</h3>
+                        <br>
+                          <p class="description">As a marketing specialist, it is my job to advertise not only our goods and services but also our company. 
+                            I am not only a leader, but also a listener and follower. <br> <br>
+                            “Listen to your market because that's how you market.”</p>
+                          <!-- <button class="button">View More</button> -->
+                      </div>
+                  </div>
+                  <div class="card swiper-slide">
+                      <div class="image-content">
+                          <span class="overlay"></span>
+
+                          <div class="card-image">
+                              <img src="pic/person8.png" alt="" class="card-img">
+                          </div>
+                      </div>
+
+                      <div class="card-content"style="height: 450px;">
+                        <h2 class="name" style="font-size: 20px; margin: 10px;">Nicole S. Supan  <br>
+                        </h2>
+                      <h3 style="color:#051932; font-size: 15px;">nicolesupan93@gmail.com</h3>
+                        <br>
+                          <p class="description">A Sales Specialist's primary tasks focus around the capacity to network, 
+                            create relationships with clients, and persuade others to acquire things. Investigates a company's target market and identifies new lead generation opportunities. In addition, builds a lead pipeline and contacts new potential clients through multiple channels like email, social media, and phone calls. Monitor sales cycle progress on a monthly 
+                            and quarterly basis to ensure that customer acquisition targets are met. <br> <br>
+                            “It's not what you sell, it's how you sell it.”</p>
+                          <!-- <button class="button">View More</button> -->
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="swiper-button-next swiper-navBtn"></div>
+          <div class="swiper-button-prev swiper-navBtn"></div>
+          <div class="swiper-pagination"></div>
+      </div>
+      </div>
+    </section>
+
+    <div class="last-text">
+      <p>Developed with love by Russell Bill © 2022</p>
+    </div>
+    <script src="js/swiper-bundle.min.js"></script>
+    <!---scroll-top--->
+    <a href="#" class="top"><i class="bx bx-up-arrow-alt"></i></a>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!---custom js link--->
+    <script type="text/javascript" src="js/script.js"></script>
+    
+  </body>
+  
+</html>
